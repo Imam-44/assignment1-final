@@ -6,8 +6,7 @@ body {
   font-family: "Fira Sans", serif;
    font-style: normal;
    background-color: rgb(244, 241, 241);
-   width: 1280px;
-   margin: 0 auto;
+   
 }
 /* shared style here */
 button{
@@ -30,6 +29,8 @@ button{
 }
 /* nav style start here */
 .nav {
+  width: 1280px;
+   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,6 +51,8 @@ button{
 }
 /* hero section style start here */
 .hero{
+  width: 1280px;
+   margin: 0 auto;
   background-color: #C6E4D6;
   
   border-radius: 24px;
@@ -99,6 +102,11 @@ button{
   text-align: right;
 }
 /* Vision section start here */
+main{
+  width: 1280px;
+   margin: 0 auto;
+   margin-top: 100px;
+}
 .vision-card {
   display: flex;
   justify-content: space-evenly;
@@ -151,6 +159,9 @@ button{
 
 
 /* news section start here */
+.recent-news{
+  margin-top: 80px;
+}
 .news-block{
   background-color: #FFFFFF;
   box-shadow: 1px 1px 1px white;
@@ -222,3 +233,120 @@ button{
 .img-gap{
   margin-left: 30px;
 }
+
+/* Donate section style start here */
+.donate{
+  
+  margin-top: 80px;
+  text-align: center;
+}
+.section-heading-center{
+  font-family: "Fira Sans", serif;
+  /* font-family: bold; */
+  font-size: 40px;
+  color: #0E0E0E;
+  margin-top: 0px;
+
+}
+.section-description-center {
+  font-size: 17px;
+  line-height: 24px;
+  color: #0E0E0E;
+  opacity: 70%;
+  margin: 20px 0;
+}
+
+.donate-amount button{
+ padding: 36px 40px;
+ border: none;
+ background-color: #fff;
+ margin: 20px 10px;
+ border-radius: 16px;
+ font-weight: bold;
+ font-size: 30px;
+ color: #0E0E0E;
+ opacity: 80%;
+}
+.donate-amount  .active-bg{
+  background-color: #C6E4D6;
+}
+.local-amount{
+  width: 80%;
+  padding: 16px 30px;
+  text-align: center;
+  border: none;
+  color: rgba(14, 14, 14, 0.2);
+  font-family: "Fira Sans", serif;
+}
+.donate-btn{
+  text-align: center;
+  margin: 20px 0 0 20px;
+}
+
+/* subscribe style start here */
+
+.subscribe{
+  background-color: #C6E4D6;
+  border-radius: 18px;
+  margin: 64px;
+  text-align: center;
+  padding: 80px 100px;
+}
+.subscribe-content{
+  text-align: center;
+  padding: 60px 80px;
+}
+.email-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin: 20px 0;
+}
+.put-email{
+  width: 400px;
+  padding: 12px 40px;
+  background-color: #fff;
+  border: none;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans", serif;
+  border-radius: 10px 0px 0px 10px;
+}
+.subs-btn{
+  border-radius: 0px 10px 10px 0;
+  font-family: "Fira Sans", serif;
+  border: none;
+  padding: 12px 24px;
+  background-color: #006A50;
+  color: white;
+  border: none;
+}
+.spam-aleart{
+  color: #0E0E0E;
+  opacity: 70%;
+  margin-top: 10px;
+}
+
+/* footer style start here */
+/* footer style start here */
+.footer-section{
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  height: 20vh;
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+.footer-heading{
+  margin-top: 30px;
+}
+footer hr {
+  width: 600px;
+  margin: 0 auto;
+  opacity: 50%;
+  margin-top: 20px;
+}
+ .footer-icon{
+  margin: 30px;
+ }
