@@ -37,9 +37,12 @@ button{
   height: 25vh;
 }
 .nav-heading{
-  color: #0E0E0E;
+  color: #02684e;
   font-weight: bold; 
   font-size: 32px;
+}
+.red-color{
+  color: #df0236;
 }
 .nav-btn{
   font-family: "Fira Sans", serif;
@@ -52,8 +55,9 @@ button{
   
 }
 .nav-btn:hover {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #01926e;
+  color: #fff;
+  
   
 }
 /* hero section style start here */
@@ -320,7 +324,7 @@ main{
  opacity: 80%;
 }
 .donate-amount button:hover{
-  background-color:#128b62;
+   background-color: orange;
 }
 .donate-amount  .active-bg{
   background-color: #C6E4D6;
@@ -337,7 +341,9 @@ main{
   text-align: center;
   margin: 20px 0 0 20px;
 }
-
+..donate-btn:hover{
+  background-color:#128b62;
+}
 /* subscribe style start here */
 
 .subscribe{
