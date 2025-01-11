@@ -1,0 +1,138 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+body {
+  font-family: "Fira Sans", serif;
+   font-style: normal;
+   background-color: rgb(244, 241, 241);
+   width: 1280px;
+   margin: 0 auto;
+}
+/* shared style here */
+button{
+  font-family: "Fira Sans", serif;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+.section-title-left{
+  font-weight: bold;
+  font-size: 40px;
+  color: #0E0E0E;
+}
+.section-description-left{
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px;
+ color: #0E0E0E;
+ opacity: 70%;
+}
+/* nav style start here */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25vh;
+}
+.nav-heading{
+  color: #0E0E0E;
+  font-weight: bold; 
+  font-size: 32px;
+}
+.nav-btn{
+  font-family: "Fira Sans", serif;
+   border-radius: 8px;
+   color: #006A50;
+   padding: 15px 30px;
+   font-weight: 600;
+   font-size: 18px;
+}
+/* hero section style start here */
+.hero{
+  background-color: #C6E4D6;
+  
+  border-radius: 24px;
+  /* height: 40vh; */
+  /* padding: 80px; */
+ 
+  /* gap: 20px; */
+ 
+}
+.hero-content{
+  display: flex;
+  align-items: center;
+  padding: 80px 100px;
+}
+.hero-left{
+  width: 622px;
+  text-align: left;
+  margin: 24px;
+}
+.hero-left h6 {
+  color: #0E0E0E;
+  opacity: 50%;
+  font-weight: 500;
+  font-size: 24px;
+  
+}
+.hero-left h1 {
+  font-weight: bold;
+  font-size: 56px;
+  /* margin: 10px 0 20px 0; */
+  color: #0E0E0E;
+}
+.hero-btn{
+  background-color: #006A50;
+  color: #FFF;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-size: 18px;
+  
+}
+.hero-right{
+  width: 474px;
+  /* margin-left: 40px; */
+  text-align: right;
+}
+/* Vision section start here */
+.vision-card {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  /* margin: 24px; */
+}
+.card {
+  width: 33.3%;
+  padding: 32px 32px;
+  margin: 24px;
+  border-radius: 16px;
+}
+.card-style-1 {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.card-style-2{
+  background-color: #C6E4D6;
+}
+.card-style-3{
+  background-color: #F7EBCF;
+}
+.card-btn{
+  padding: 11px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+}
+.card-btn-1{
+  background-color: #5490F5 ;
+
+}
+.card-btn-2 {
+  background-color: #09A15C ;
+}
+.card-btn-3{
+  background-color: #FFC239;
+}
